@@ -67,9 +67,7 @@ Time taken: 0.000010 seconds
 
 ---
 
-## 👤 Credits
-- Developed for COT 6405 (Fall 2021)
-- Your Name
+
 
 ---
 
