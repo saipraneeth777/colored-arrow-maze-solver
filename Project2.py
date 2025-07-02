@@ -1,5 +1,5 @@
 import sys  # Import the sys module to access system-specific parameters and functions
-import time  # Add for performance timing
+import time  # used for performance timing
 sys.setrecursionlimit(10**6)  # Set the recursion limit to prevent exceeding the maximum recursion depth
 
 class ArrowNode:
