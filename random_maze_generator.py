@@ -33,4 +33,4 @@ if __name__ == "__main__":
     output_file = sys.argv[3]
     maze = generate_maze(rows, cols)
     write_maze(maze, output_file)
-    print(f"Random maze ({rows}x{cols}) written to {output_file}") 
+    print(f"Random maze ({rows}x{cols}) written to {output_file}")
