@@ -86,7 +86,6 @@ def visualize_maze(arrow_data_matrix, path_coords):
         print(' '.join(row_str))
 
 def main_maze_solver(input_file, output_file):
-    import copy
     with open(input_file, 'r') as file_handle:
         lines = file_handle.readlines()
         data = [line.split() for line in map(str.strip, lines)]
@@ -123,8 +122,6 @@ def main_maze_solver(input_file, output_file):
         print("No solution found.")
 
 if __name__ == "__main__":
-# # Obtain input and output file names from command-line arguments
-    input_file_name = sys.argv[1] 
+    input_file_name = sys.argv[1]
     output_file_name = sys.argv[2]
-# Call the main_maze_solver function with the provided input and output file names
     main_maze_solver(input_file_name, output_file_name)
